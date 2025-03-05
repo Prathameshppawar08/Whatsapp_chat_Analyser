@@ -75,6 +75,6 @@ if uploaded_file:
         words = [word for word in words if word.lower() not in ['media', 'omitted']]
 
         st.subheader("📌 Word Cloud - Most Frequent Words")
-        # helper.generate_wordcloud(df, selected_user)
+        helper.generate_wordcloud(df, selected_user)
         
         helper.generate_emoji_pie_chart(df["Message"])
