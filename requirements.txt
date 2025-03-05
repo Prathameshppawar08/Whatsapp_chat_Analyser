@@ -1,5 +1,5 @@
 streamlit==1.10.0
-wordcloud==1.8.0
+wordcloud==1.7.0  # Downgrade to 1.7.0
 pandas==1.4.0
 numpy==1.23.0
 matplotlib==3.5.1
